@@ -35,7 +35,7 @@ youtube_username                          :
 # Feature List                            Edit, add or remove features to be presented.
 features                                  :
 
-  - title                                 : 可与家人和朋友分享购物清单
+  - title                                 : 可与家人朋友分享购物清单
     description                           : 清单内容的更新会即时同步到每一个共享成员。即使大家分开购物，也可以看到彼此进度，不会重复购买相同的东西。
     fontawesome_icon_name                 : magic
     
