@@ -3,7 +3,7 @@ page_title                                :                                     
 
 # App Info
 ios_app_id                                : 6443694484                                # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
-ios_app_country                           : jp                                        # Required outside USA. Enter 2 letter country code as in https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
+ios_app_country                           : cn                                        # Required outside USA. Enter 2 letter country code as in https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
 
 appstore_link                             : https://itunes.apple.com/app/id6443694484                                         # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
 playstore_link                            :                                           # Enter Google Play Store URL.
@@ -11,9 +11,9 @@ presskit_download_link                    :                                     
                                                                                       # Or upload your press kit file to assets and set path accordingly (e.g. "assets/your_press_kit.zip").
 
 app_icon                                  : assets/appicon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
-app_name                                  : 毎日買い物リスト                                            # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
+app_name                                  : 购物小抄                                            # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_price                                 :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_description                           : 毎日買い物リスト - 家族と共有できるショッピングリスト
+app_description                           : 购物小抄 - 可以和家人朋友分享的购物清单APP
 
 enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
 
@@ -21,7 +21,7 @@ enable_smart_app_banner                   : true                                
 
 # Information About Yourself
 your_name                                 : Swallow Works Studio                            
-your_link                                 : http://kakeibo.swalloworkstudio.com                     
+your_link                                 : http://tiantianjizhang.swalloworkstudio.com                     
 your_city                                 : Tokyo                                
 email_address                             : swalloworks@gmail.com
 facebook_username                         : mainichishoppinglist                                          
@@ -35,28 +35,28 @@ youtube_username                          :
 # Feature List                            Edit, add or remove features to be presented.
 features                                  :
 
-  - title                                 : 家族や友達と買い物リストを共有OK
-    description                           : 共有先にリスト内容の更新がリアルタイムで反映される
+  - title                                 : 可与家人和朋友分享购物清单
+    description                           : 清单内容的更新会即时同步到每一个共享成员。即使大家分开购物，也可以看到彼此进度，不会重复购买相同的东西。
     fontawesome_icon_name                 : magic
     
-  - title                                 : 入力自動補完機能でお手軽入力
-    description                           : 入力した文字列に一致する商品名を自動で補完してくれる
+  - title                                 : 商品自动推荐
+    description                           : 输入商品名时，APP会搜索购买记录和人气商品，自动显示相关商品以供选择。
     fontawesome_icon_name                 : heartbeat
   
-  - title                                 : 金額も管理可能
-    description                           : 数量と金額の合計金額が自動で計算される
+  - title                                 : 可记录数量，价格
+    description                           : 如果有输入数量，价格，清单会自动计算总金额
     fontawesome_icon_name                 : sync
 
-  - title                                 : ローカル ファースト
-    description                           : データはすべてローカルに優先して保存されます。ネットワークに接続されていなくても、リストの内容を確認したり、編集したりできます。
+  - title                                 : 本机优先
+    description                           : 所有资料都会先储存在本机。即使您没有连网，也可以查看或编辑清单内容。
     fontawesome_icon_name                 : bell
 
-  - title                                 : セキュリティ
-    description                           : データは自分のものです。たとえ開発者であっても、データを閲覧したり、編集したりすることはできません。
+  - title                                 : 安全
+    description                           : 数据是您的。即使是开发者，也无法查看您的数据。
     fontawesome_icon_name                 : star
 
-  - title                                 : 登録不要
-    description                           : AppleIDアカウントを持っていれば、ログイン不要で使えます。
+  - title                                 : 无需登录账号
+    description                           : 自动绑定AppleID帐号, 无需登录就可以使用
     fontawesome_icon_name                 : adjust
 
 
